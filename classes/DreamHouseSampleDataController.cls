@@ -1,5 +1,6 @@
 global with sharing class DreamHouseSampleDataController {
-//worshop modification test
+//added comment
+//some comment2
     @RemoteAction
     global static void deleteAll() {
         DELETE [SELECT ID FROM favorite__c];    
